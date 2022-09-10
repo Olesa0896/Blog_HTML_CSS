@@ -1,0 +1,79 @@
+.about-skills {}
+
+.about-summary__header {
+  text-align: center;
+}
+
+.about-summary-skills__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+
+  padding: 3rem;
+}
+
+.about-skills__card {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon{
+  background: url("/codeable-ui---blog-post-Olesa0896/assets/icons/Icon.png");
+  height: 25.6px;
+  width: 25.6px;
+  display: flex;
+  /* justify-content: flex-start; */ 
+}
+
+.about-skills__card h3{
+  display: flex;
+  margin-left: 1.5rem;
+}
+
+.about-skills__card p{
+  display: flex;
+  margin-left: 3rem;
+  /* align-items: flex-start; */
+  /* margin-top: 4px; */
+}
+
+.about-hobbies {}
+
+.about-skills__header {
+  text-align: center;
+}
+
+.about-summary-hobbies__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  padding: 4rem;
+}
+
+.about-hobbies__card img {
+  height: 230px;
+  width: 236px;
+  border-radius: 8px;
+}
+
+.about-hobbies__card {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.hobbies-text{
+  height: 242px;
+  width: 236px;
+  left: 250px;
+  padding: 8px;
+
+  text-align: center;
+}
+.about-hobbies__card p{
+
+  text-align: center;
+}
