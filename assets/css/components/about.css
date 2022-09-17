@@ -21,11 +21,10 @@
 }
 
 .icon{
-  background: url("/codeable-ui---blog-post-Olesa0896/assets/icons/Icon.png");
+  background-image: url("/assets/icons/icon.svg");
   height: 25.6px;
   width: 25.6px;
   display: flex;
-  /* justify-content: flex-start; */ 
 }
 
 .about-skills__card h3{
@@ -48,14 +47,16 @@
 
 .about-summary-hobbies__content {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
-  padding: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 0.5rem;
+  gap: 1rem;
 }
 
 .about-hobbies__card img {
-  height: 230px;
-  width: 236px;
-  border-radius: 8px;
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 .about-hobbies__card {
@@ -66,14 +67,6 @@
 }
 
 .hobbies-text{
-  height: 242px;
-  width: 236px;
-  left: 250px;
-  padding: 8px;
-
-  text-align: center;
-}
-.about-hobbies__card p{
-
+  padding: .5rem .5rem;
   text-align: center;
 }
