@@ -11,19 +11,29 @@
     <header class="header">
       <div class="container-lg">
         <nav class="navbar">
+          <input type="checkbox" id="menu-mobile">
           <a href="index.html" class="header__logo text-decoration-none">
-            <h1 class="head-md semibold ">Olenka Sanchez</h1>
+            <h1 class="head-md semibold">Olenka Sanchez</h1>
+            <div>
+              <!-- option 1 -->
+              <label for="menu-mobile" id= "toggle-close">
+                <i class="ri-close-line ri-xl"></i>
+              </label>
+              
+              <!-- option 2 -->
+              <label for="menu-mobile" id= "toggle-open">
+                <i class="ri-menu-line ri-xl"></i>
+              </label>
+            </div>
           </a>
-          <ul class="navbar__links list-style-none">
+          <ul class=" expandable navbar__links list-style-none">
             <li><a href="article.html" class="link text semibold">Articles</a></li>
             <li>
               <a href="#" class="link text semibold">Portafolio</a>
             </li>
             <li><a href="about.html" class="link text semibold">About</a></li>
             <li>
-              <a 
-              href="#" 
-              class="button button--primary button--sm text-decoration-none">
+              <a href="form.html" class="button button--primary button--sm text-decoration-none">
                 Contact Me
               </a>
             </li>
@@ -79,7 +89,7 @@
         </blockquote>
 
         <figure>
-          <img src="assets/image/living_room.png" alt="living_room" />
+          <img src="assets/pics/image.png" alt="living_room" />
           <figcaption>Image description</figcaption>
         </figure>
 
