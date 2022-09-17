@@ -16,6 +16,10 @@
 /* Buttons base - END */
 
 /* Buttons Default - START */
+.button--xs {
+  font-size: .75em;
+  padding: .125em .625em;
+}
 .button--sm {
   font-size: .875em;
   padding: .5em .75em;
