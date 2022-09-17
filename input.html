@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codeable UI - C8</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-lg">
+      <nav class="navbar">
+        <input type="checkbox" id="menu-mobile">
+        <a href="index.html" class="header__logo text-decoration-none">
+          <h1 class="head-md semibold">Olenka Sanchez</h1>
+          <div>
+            <!-- option 1 -->
+            <label for="menu-mobile" id= "toggle-close">
+              <i class="ri-close-line ri-xl"></i>
+            </label>
+            
+            <!-- option 2 -->
+            <label for="menu-mobile" id= "toggle-open">
+              <i class="ri-menu-line ri-xl"></i>
+            </label>
+          </div>
+        </a>
+        <ul class=" expandable navbar__links list-style-none">
+          <li><a href="article.html" class="link text semibold">Articles</a></li>
+          <li>
+            <a href="#" class="link text semibold">Portafolio</a>
+          </li>
+          <li><a href="about.html" class="link text semibold">About</a></li>
+          <li>
+            <a href="form.html" class="button button--primary button--sm text-decoration-none">
+              Contact Me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container-lg">
+    <div class="container-md form-header">
+      <h2 class="head-lg semibold">Contact me</h2>
+      <p class="text-lg light">
+        Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way
+        don't hesitate to fill this form.
+      </p>
+    </div>
+
+    <form class="container-sm">
+      <div class="input-container">
+        <div>
+          <label for="firstname" class="text-xs light overline">
+            FIRST NAME
+          </label>
+          <input 
+          class="input" 
+          id="firstname"
+          type="text" 
+          name="firstname" 
+          placeholder="John" 
+          >
+        </div>
+        <div>
+          <label for="lastname" class="text-xs light overline">
+            LAST NAME
+          </label>
+          <input 
+          class="input" 
+          id="lastname" 
+          type="text" 
+          name="lastname" 
+          placeholder="Doe"  
+          >
+        </div>
+        <div>
+          <label for="email" class="text-xs light overline">
+            EMAIL
+          </label>
+          <input 
+          class="input"
+          id="email"
+          type="email" 
+          name="email-address" 
+          placeholder="john@mail.com"  
+          >
+        </div>
+        <div>
+          <label for="company" class="text-xs light overline">
+            COMPANY
+          </label>
+          <input 
+          class="input"
+          id="company"
+          type="text" 
+          name="company" 
+          placeholder="Comapny SA"  
+          >
+        </div>
+        <div>
+          <label for="phone-number"class="text-xs light overline">
+            PHONE
+          </label>
+          <input 
+          class="input"
+          id="phone-number"
+          type="text" 
+          name="phone-number"
+          placeholder="923913445" 
+          >
+        </div>
+        <div>
+          <label for="country"class="text-xs light overline">
+            COUNTRY
+          </label>
+          <select
+            name="country"
+            id="country"
+            class="text-md light select"
+          >
+            <option value="" hidden>Select one</option>
+            <option value="BO">Bolivia</option>
+            <option value="CO">Colombia</option>
+            <option value="EC">Ecuador</option>
+            <option value="PE">Peru</option>
+            <option value="VE">Venezuela</option>
+          </select>
+        </div>
+      </div>
+      <!-- Checkboxes -->
+    
+      <div class="flex flex-column top-2">
+        <p class="text-xs light overline">HOW CAN I HELP YOU?</p>
+        <div class="bottom-2 gap-0.5">
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              name="check-1"
+              id="check-1"
+              class="checkbox__input"
+            />
+            <div class="checkbox__text-group">
+              <label for="check-1" class="text-sm light checkbox__label"
+                >Job Offer</label
+              >
+              <span class="text-xs light checkbox__help">If you are looking to expand your team</span>
+            </div>
+          </div>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              name="check-2"
+              id="check-2"
+              class="checkbox__input"
+            />
+            <div class="checkbox__text-group">
+              <label for="check-2" class="text-sm light checkbox__label"
+                >Project Offer</label
+              >
+              <span class="text-xs light checkbox__help">If you are looking to expand your team</span>
+            </div>
+          </div>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              name="check-3"
+              id="check-3"
+              class="checkbox__input"
+            />
+            <div class="checkbox__text-group">
+              <label for="check-3" class="text-sm light checkbox__label"
+                >Collaboration</label
+              >
+              <span class="text-xs light checkbox__help">If you are looking to expand your team</span>
+            </div>
+          </div>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              name="check-3"
+              id="check-3"
+              class="checkbox__input"
+            />
+            <div class="checkbox__text-group">
+              <label for="check-3" class="text-sm light checkbox__label"
+                >Other</label>
+            </div>
+          </div>
+      </div>
+    
+      <button class="button button--primary button--lg" type="submit" name="submit">
+        Send
+      </button>
+    </form>
+  </section>
+
+</body>
+
+</html>
