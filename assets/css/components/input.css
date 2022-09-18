@@ -6,6 +6,16 @@
   /* padding: 1.5rem; */
 }
 
+.input__header h2{
+  text-align: center;
+  padding: 4px 0;
+}
+
+.input__header p{
+  text-align: center;
+  padding: 4px 0;
+}
+
 .input, .input-container__input {
   color: var(--green-900);
   width: 100%;
