@@ -5,6 +5,14 @@
   gap: 1rem;
 }
 
+.project__image {
+  height: 327px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 .second-section__content{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
